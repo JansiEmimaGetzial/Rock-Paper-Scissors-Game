@@ -1,18 +1,22 @@
-## Getting Started
+# Rock Paper Scissors Game in Java
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
+This Java program implements the classic Rock, Paper, Scissors game where the user plays against the computer. The computer randomly selects one of the options, and the user inputs their choice through the console.
 
-## Folder Structure
+## Features
+- Imports java.util.Random to randomly select Rock, Paper, or Scissors for the computer.
+- Imports java.util.Scanner to capture user input.
+- Uses a list to store Rock as 'r', Paper as 'p', and Scissors as 's'.
+- Utilizes a while loop to run the game until the user decides to exit.
+- Employs if() and elseif() statements to compare user input with the computer's choice and determine the winner.
 
-The workspace contains two folders by default, where:
+## How to Play
+1. Run the Java program.
+2. Enter your choice (r for Rock, p for Paper, s for Scissors) when prompted.
+3. The computer will randomly select its option.
+4. The program will announce the winner or declare a tie.
+5. Repeat as desired, or exit the game.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Feel free to use, modify, and share this code!
